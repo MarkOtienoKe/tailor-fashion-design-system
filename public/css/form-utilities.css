@@ -1,0 +1,28 @@
+label{
+    color: #605ca8;
+    font-weight: 400;
+}
+#create_user_form,#create_customer_form,#create_employee_form,#create_designation_form,#create_order_form,#make_payment_form label.error {
+    margin-left: 10px;
+    width: auto;
+    color: red;
+    display: inline;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "Times New Roman";
+}
+#edit_user_form,#edit_customer_form,#edit_employee_form label.error{
+    margin-left: 10px;
+    width: auto;
+    color: red;
+    display: inline;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "Times New Roman";
+}
+.optional_field{
+    color:darkolivegreen;
+}
+.required_field{
+    color: red;
+}
